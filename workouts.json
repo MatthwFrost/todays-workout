@@ -1,0 +1,69 @@
+{
+    "Monday":[
+    {
+        "workout_type": "chest and arms",
+        "types": [
+            "Floor push ups",
+            "Incline push ups",
+            "Decline push ups",
+            "Diamond push ups",
+            "Overhead skullcrushers",
+            "Plank press"
+        ]
+    }
+    ],
+
+    "Tuesday":[
+    {
+        "workout_type": "Interval training",
+        "types": [
+            "1 minute run",
+            "1 minute walk"
+        ]
+    }
+    ],
+    "Wednesday":[
+        {
+        "workout_type": "Arms",
+        "types":[
+            "Romanian dead lift", 
+            "Standing rows",
+            "Vertical press",
+            "Standing flys",
+            "Hammer curls",
+            "21's"
+        ]
+    }
+    ],
+    "Thursday":[
+        {
+        "workout_type": "Run",
+        "types":[
+            "5km run"
+        ]
+    }
+    ],
+    "Friday":[
+        {
+            "workout_type": "Legs",
+            "types": [
+                "Split squat",
+                "Bulgarians",
+                "Jump squat",
+                "Hip thrust"
+            ]
+        } 
+    ],
+    "Saturday":[
+        {
+            "workout_type": "Biceps and Chest",
+            "types": [
+                "Push ups",
+                "Plank hip dips",
+                "Bus drivers with weights",
+                "Sit ups",
+                "Bicep curls"
+            ]
+        }
+    ]
+}
