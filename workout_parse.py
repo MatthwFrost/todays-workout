@@ -13,17 +13,17 @@ import random
 from datetime import datetime
 
 weekday = datetime.today().strftime('%A')
-
 f = open('workouts.json')
 data = json.load(f)
 workout_list = []
+message = ""
 
 for i in range(0, len(data[weekday][0]['types'])):
     for workout in data[weekday]:
         workout_list.append(workout['types'][i])
         user_workout = workout['workout_type'] 
 
-message = "Goodmorning, today is " + user_workout + "! [emoji test: ✅]: \n\n"
+message += "Good Morning, today is " + user_workout + "!:\n\n"
 
 # Shuffles the list and appends it to a string to write to a file
 shuffled_list = random.sample(workout_list, len(workout_list))
