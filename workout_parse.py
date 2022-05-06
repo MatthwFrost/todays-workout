@@ -16,20 +16,24 @@ weekday = datetime.today().strftime('%A')
 f = open('workouts.json')
 data = json.load(f)
 workout_list = []
-message = ""
 
+# Reads data from JSON and appends to a list
 for i in range(0, len(data[weekday][0]['types'])):
     for workout in data[weekday]:
         workout_list.append(workout['types'][i])
         user_workout = workout['workout_type'] 
 
-message += "Good Morning, today is " + user_workout + "!:\n\n"
 
 # Shuffles the list and appends it to a string to write to a file
+shuffle = ""
 shuffled_list = random.sample(workout_list, len(workout_list))
-for i in shuffled_list:
-    message += i + ', 3x10\n'
-message += "\n\nEnjoy!"
+for item in shuffled_list:
+    shuffle += item + ', 3x10\n'
+
+
+message = "Good Morning, today is " + user_workout + "!😎:\n\n" + shuffle + \
+        "\n\nThis work out will take: 20 minutes⏰ [average]\n\nGoodluck and \
+Enjoy!🙂"
 
 # Writing to the file
 workout_file = open("workout_file.txt", "w")
