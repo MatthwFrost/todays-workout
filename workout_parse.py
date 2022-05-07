@@ -30,7 +30,7 @@ shuffled_list = random.sample(workout_list, len(workout_list))
 for item in shuffled_list:
     shuffle += item + ', 3x10\n'
 
-
+# TODO: Move message creation to a different file.
 message = "Good Morning, today is " + user_workout + "!😎:\n\n" + shuffle + \
         "\n\nThis work out will take: 20 minutes⏰ [average]\n\nGoodluck and \
 Enjoy!🙂"
