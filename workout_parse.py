@@ -22,6 +22,9 @@ data = json.load(f)
 class Parse:
     """Takes data from the .json file and makes it availble to use"""
     
+    def username():
+        return data['username']
+
     # Takes the work out type
     def user_workout():
         return data[weekday][0]['workout_type']
