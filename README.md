@@ -1,8 +1,14 @@
-# todays-workout
+# Todays Workout
 
 I created this little tool because I don't like repition. Waking up and doing
 the same workout over and over again. I decided to code something up to get a
-text every morning, that contains a work out!
+text every morning, that contains a  different workout!
+
+The workout is generated to fit skill level and number of sets will represent that aswell.
+
+I am not a PT or have any qualifications in exersise, but I do have some friends
+helping out with listing all the exersises. (I have no clue my self)
+
 
 ## Updates
 This is a very basic peice of software but I plan to expand it and allow other
