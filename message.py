@@ -17,7 +17,7 @@ for wrk in workout:
 
     workout_str += wrk + "\n"
 
-file_name = "text_files/" + weekday +"_"+ d1 + "_" + w_type +  ".txt"
+file_name = "SMSlog/" + weekday +"_"+ d1 + "_" + w_type +  ".txt"
 message = "Good Moring, today is " + w_type + "!😎:\n\n" + workout_str + \
         "\n\nThis work out will take: 20 minutes⏰"
 
