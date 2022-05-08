@@ -65,5 +65,16 @@
                 "Bicep curls"
             ]
         }
+    ],
+    "Sunday": [
+        {
+            "workout_type": "Rest",
+            "types": [
+                "Rest",
+                "test_1",
+                "test_2",
+                "test_3"
+            ]
+        }
     ]
 }
