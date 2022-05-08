@@ -1,3 +1,4 @@
+from message import SMS_send 
 '''
 :TODO
     - Remove hard coded number                  DONE
@@ -14,7 +15,8 @@ t_number = os.environ.get('T_PHONE_NUMBER')
 client = Client(account_sid, auth_token)
 
 
-text_msg = open('workout_file.txt')
+path = SMS_send()
+text_msg = open(path)
 data = text_msg.read()
 text_msg.close()
 

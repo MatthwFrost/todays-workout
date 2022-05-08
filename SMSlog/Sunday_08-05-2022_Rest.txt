@@ -1,8 +1,8 @@
 Good Moring, today is Rest!😎:
 
 test_3
-test_1
-test_2
 Rest
+test_2
+test_1
 
 This work out will take: 20 minutes⏰

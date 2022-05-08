@@ -16,7 +16,7 @@ from random import sample
 from datetime import datetime
 
 weekday = datetime.today().strftime('%A')
-f = open('workouts.json')
+f = open('data/workouts.json')
 data = json.load(f)
 
 class Parse:
