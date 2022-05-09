@@ -1,0 +1,33 @@
+{
+    "back":[
+        {
+            "name": "back_1",
+            "time": 10,
+            "difficulty": "medium"
+        },
+        {
+            "name": "back_2",
+            "time": 10,
+            "difficulty": "medium"
+        }
+    ],
+    "sholders":[
+        {
+            "name": "sholder_1",
+            "time": 10,
+            "difficulty": "medium"
+        },
+        {
+            "name": "sholder_2",
+            "time": 10,
+            "difficulty": "medium"
+        }
+    ],
+    "legs":[
+        {
+            "name": "legs_1",
+            "time": 10,
+            "difficulty": "medium"
+        }
+    ]
+}

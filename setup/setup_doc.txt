@@ -1,0 +1,10 @@
+user_name = "test"
+skill level = "medium"
+monday = ""
+tuesday = ""
+wednesday = ""
+thursday = ""
+friday = ""
+saturday = ""
+random = True
+
